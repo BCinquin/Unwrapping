@@ -1,5 +1,11 @@
-# Unwrapping
-Few pieces of code to unwrap 3D data to a 2D map
+# Unwrapping grooves
+
+ProfilMaker.ijm
+a piece of code (Macro ImageJ) to Make the profile of a z stack file
+
+You can find the sample here with an intermediary
+https://zenodo.org/record/4075114#.X4BRPGgzbIU
+
 
 
 ProfilMaker user a binarized resliced 3D data stack to find the profil of the shape
@@ -13,3 +19,6 @@ An additional smoothing is performed as well
 
 The intent is to use this file to compute the slopes and project the information 
 
+An indication on how to perform this is given by using an Area to Line function of ImageJ
+
+unwrap 3D data to a 2D map
