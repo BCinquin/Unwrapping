@@ -27,7 +27,7 @@ print(NewHeight);
 
 
 
-//Binarization //To Improve...
+//Binarization //To Improve...//
 run("Subtract Background...", "rolling=30 stack");
 run("Remove Outliers...", "radius=5 threshold=0 which=Bright stack");
 run("Convert to Mask", "method=Huang background=Dark calculate black");
@@ -43,7 +43,7 @@ rename("Reslice");
 run("Erode", "stack"); //Erosion prior seems too brutal...
 run("Remove Outliers...", "radius=5 threshold=0 which=Bright stack");
 
-
+//This Step works nicely  with the file "Longest shortest paths.tif"
 Smooth_Pow=2;
 Img_Name="Reslice";
 getDimensions(width, height, channels, slices, frames);
